@@ -1,0 +1,10 @@
+{
+    "presets": [
+      "@babel/preset-env",   // Compiles modern JavaScript (ES6+) down to older versions for browser compatibility
+      "@babel/preset-react"  // Compiles JSX syntax to JavaScript
+    ],
+    "plugins": [
+      "@babel/plugin-transform-runtime"  // Helps optimize the use of helper functions in compiled code (optional, but recommended)
+    ]
+  }
+  
